@@ -24,17 +24,17 @@
 
     1. ### Slices
 
- 	* Para usar    **slices**, faça: _list[início:final]_;
- 	* Para ir até o fim sem saber o tamanho, usar: _list[:]_;
+ 		* Para usar    **slices**, faça: _list[início:final]_;
+ 		* Para ir até o fim sem saber o tamanho, usar: _list[:]_;
 
     2. ### Concatenação
 
- 	* _list1 + list2_;
- 	* _list    * 3_;
+ 		* _list1 + list2_;
+ 		* _list    * 3_;
 
 2. ## Aula 11 - Trabalhando com Listas
 
-    * Múltiplas atribuições: _var1,var2,var3 = list_.    **var1 = list[0]**,    **var2 = list[1]** e    **var3 = list[2]**;
+    * Múltiplas atribuições: _var1,var2,var3 = list_. **var1 = list[0]**, **var2 = list[1]** e **var3 = list[2]**;
 
 3. ## Aula 12 - Tuplas
 
