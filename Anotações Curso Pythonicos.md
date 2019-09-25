@@ -61,6 +61,7 @@
 
 	1. ### Utilidades
 
+<<<<<<< HEAD
 		* _upper()_ :arrow_right: deixa todas as letras maiúsculas;
 		* _lower()_ :arrow_right: deixa todas as letras minúsculas;
 		* _isupper()_ :arrow_right: retorna _True_ se todas as letras forem maiúsculas;
@@ -70,14 +71,31 @@
 		* _'number'.isdecimal()_ :arrow_right: retorna _True_ se tiver apenas números (sem espaços em branco. O 'u' significa unicode, para que ele recoheça o número em unicode);
 		* _isspace()_ :arrow_right: retorna _True_ se tiver apenas tabulações, espaços em branco ou quebras de linha;
 		* _istitle()_ :arrow_right: retorna _True_ se tiver a primeira letra de cada palavra maiúscula apenas.
+=======
+		* _upper()_ &#8594 deixa todas as letras maiúsculas;
+		* _lower()_ &#8594 deixa todas as letras minúsculas;
+		* _isupper()_ &#8594 retorna _True_ se todas as letras forem maiúsculas;
+		* _islower()_ &#8594 retorna _True_ se todas as letras forem minúsculas;
+		* _isalpha()_ &#8594 retorna _True_ se tiver apenas letras (sem espaços em branco);
+		* _isalnum()_ &#8594 retorna _True_ se tiver letras e/ou números (sem espaços em branco);
+		* _'number'.isdecimal()_ &#8594 retorna _True_ se tiver apenas números (sem espaços em branco. O 'u' significa unicode, para que ele recoheça o número em unicode);
+		* _isspace()_ &#8594 retorna _True_ se tiver apenas tabulações, espaços em branco ou quebras de linha;
+		* _istitle()_ &#8594 retorna _True_ se tiver a primeira letra de cada palavra maiúscula apenas.
+>>>>>>> master
 
 	2. ### Mais Utilidades
 
 		* _startswith(string)_;
 		* _endswith(string)_;
+<<<<<<< HEAD
 		* _join(string)_ :arrow_right: concatena as strings;
 		* _split(separator)_;
 		* _strip(), rstrip() e lstrip()_ :arrow_right: remove espaços em branco das extremidades da string;
+=======
+		* _join(string)_ &#8594 concatena as strings;
+		* _split(separator)_;
+		* _strip(), rstrip() e lstrip()_ &#8594 remove espaços em branco das extremidades da string;
+>>>>>>> master
 		* _replace(oldValue, newValue)_.
 
 6. ## Aula 15 - Funções
@@ -95,11 +113,19 @@
 
 8. ## Aula 17 - Trabalhando com o módulo OS - *Para fazer ações no OS*
 
+<<<<<<< HEAD
 	* Concatenando paths :arrow_right: _os.path.join(path, path, path)_;
 	* Diretório atual :arrow_right: _os.getcwd()_;
 	* Mudar de diretório :arrow_right: _os.chdir(path)_;
 	* Criar pastas :arrow_right: _os.makedirs(path)_;
 	* Retorna path absoluto :arrow_right: _os.path.abspath()_;
+=======
+	* Concatenando paths &#8594 _os.path.join(path, path, path)_;
+	* Diretório atual &#8594 _os.getcwd()_;
+	* Mudar de diretório &#8594 _os.chdir(path)_;
+	* Criar pastas &#8594 _os.makedirs(path)_;
+	* Retorna path absoluto &#8594 _os.path.abspath()_;
+>>>>>>> master
 
 9. ## Aula 18 - Lendo Arquivos
 
@@ -107,6 +133,7 @@
 
 10. ## Aula 19 - Escrevendo Arquivos
 
+<<<<<<< HEAD
 	* _w_ :arrow_right: escrita;
 	* _a_ :arrow_right: adição;
 	* _r_ :arrow_right: leitura;
@@ -119,6 +146,20 @@
 	2. ### Adicionando conteúdo a um arquivo
 
 		* _open(filename, 'a')_ :arrow_right: _f.write(content)_;
+=======
+	* _w_ &#8594 escrita;
+	* _a_ &#8594 adição;
+	* _r_ &#8594 leitura;
+	* _b_ &#8594 binário;
+
+	1. ### Sobrescrevendo um arquivo
+
+		* _open(filename, 'w')_ &#8594 _f.write(content)_;
+
+	2. ### Adicionando conteúdo a um arquivo
+
+		* _open(filename, 'a')_ &#8594 _f.write(content)_;
+>>>>>>> master
 
 	3. ### Salvando um binário
 
@@ -144,6 +185,12 @@
 
 	3. ### Apagando arquivos e pastas
 
+<<<<<<< HEAD
 		* _os.unlink(path)_ :arrow_right: apaga arquivos;
 		* _os.rmdir(path)_ :arrow_right: apaga diretório vazio;
 		* _shutil.rmtree(path)_ :arrow_right: apaga diretórios e todos seus arquivos e subdiretórios.
+=======
+		* _os.unlink(path)_ &#8594 apaga arquivos;
+		* _os.rmdir(path)_ &#8594 apaga diretório vazio;
+		* _shutil.rmtree(path)_ &#8594 apaga diretórios e todos seus arquivos e subdiretórios.
+>>>>>>> master
