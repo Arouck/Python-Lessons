@@ -24,7 +24,7 @@
 
     1.1. ### Slices
 
- 		* Para usar    **slices**, faça: _list[início:final]_;
+ 		* Para usar **slices**, faça: _list[início:final]_;
  		* Para ir até o fim sem saber o tamanho, usar: _list[:]_;
 
     1.2. ### Concatenação
