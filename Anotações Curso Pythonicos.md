@@ -22,12 +22,12 @@
     * _list.count(elemento)_: conta quantas aparições o _elemento_ tem na lista tem.
 
 
-    1.1. ### Slices
+    1. ### Slices
 
  		* Para usar **slices**, faça: _list[início:final]_;
  		* Para ir até o fim sem saber o tamanho, usar: _list[:]_;
 
-    1.2. ### Concatenação
+    2. ### Concatenação
 
  		* _list1 + list2_;
  		* _list    * 3_;
