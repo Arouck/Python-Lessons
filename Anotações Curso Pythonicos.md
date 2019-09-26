@@ -154,36 +154,25 @@
 
 	* Lendo arquivos
 
-		> _import zipfile_ 
-
-		> _zipado =  zipfile.ZipFila(arquivo zipado existente)_
-
-		> _zipado.namelist()_
-
-		> _infos = zipado.getinfo(arquivo)_
-
-		> _infos.file_size_
-
-		> _infos.compress_size_
-
+		> _import zipfile_ \
+		> _zipado =  zipfile.ZipFila(arquivo zipado existente)_\
+		> _zipado.namelist()_\
+		> _infos = zipado.getinfo(arquivo)_\
+		> _infos.file_size_\
+		> _infos.compress_size_\
 		> _zipado.close()_
 
 	* Extraindo todos os arquivos
 
-		> _zipado.extractall()_
-
-		> _zipado.extract(filename)_
-
-		> _zipado.extract(filename, path)_
-
+		> _zipado.extractall()_\
+		> _zipado.extract(filename)_\
+		> _zipado.extract(filename, path)_\
 		> _zipado.close()_
 
 	* Criando arquivo zip e adicionando
 
-		> _zipback = zipfile.ZipFile(zipfilename.zip, 'w')_
-
-		> _zipback.write(filename)_
-
+		> _zipback = zipfile.ZipFile(zipfilename.zip, 'w')_\
+		> _zipback.write(filename)_\
 		> _zipback.close()_
 
 13. ## Aula 22 - Subprocess
@@ -193,18 +182,14 @@
 
 	* _subprocess.call()_
 
-		> _import subprocess_
-
-		> _a = subprocess.call('ls')_
-
-		> a
-
+		> _import subprocess_\
+		> _a = subprocess.call('ls')_\
+		> a\
 		> Retorna 0 caso sucesso e 1 caso erro
 
 	* _subprocess.check_call()_
 
-		> _a = subprocess.check_call(value)_
-
+		> _a = subprocess.check_call(value)_\
 		> Retorna erro caso o valor não seja 0
 
 	* Argumentos
@@ -213,3 +198,7 @@
 		> _stdin_: redireciona a entrada\
 		> _stdout:_ redireciona a saída\
 		> _stderr_: redireciona o erro
+
+	* subprocess.Popen()
+
+		> Utilizada para redirecionar os valores de saída para alguma variável.
