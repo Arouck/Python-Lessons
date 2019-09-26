@@ -204,15 +204,12 @@
 	* _subprocess.check_call()_
 
 		> _a = subprocess.check_call(value)_
-		
+
 		> Retorna erro caso o valor não seja 0
 
 	* Argumentos
 
-		> _shell_: utiliza a shell para executar o comando
-
-		> _stdin_: redireciona a entrada
-
-		> _stdout:_ redireciona a saída
-
-		> _stderr_: 
+		> _shell_: utiliza a shell para executar o comando\
+		> _stdin_: redireciona a entrada\
+		> _stdout:_ redireciona a saída\
+		> _stderr_: redireciona o erro
